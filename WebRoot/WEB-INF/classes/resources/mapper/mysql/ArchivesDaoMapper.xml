@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.speedy.exam.dao.ArchivesDao">
+
+	<select id="getArchives" resultType="com.speedy.exam.model.Archives" parameterType="String">
+		    SELECT * FROM t_e_person a LEFT JOIN t_e_type_option b ON a.floor = b.optioncode where personkey = #{personkey}
+	</select>
+      
+    <select id="getMyInfo" resultType="com.speedy.exam.model.Paper" parameterType="String">
+		    SELECT paperkey,b.optionname papertype,c.optionname passstate,DATE_FORMAT(creatdate,"%Y-%m-%d") creatdate,score FROM t_e_paper a LEFT JOIN t_e_type_option b ON a.papertype = b.optioncode LEFT JOIN t_e_type_option c ON a.passstate = c.optioncode WHERE personkey = #{personkey}
+	</select>
+</mapper>

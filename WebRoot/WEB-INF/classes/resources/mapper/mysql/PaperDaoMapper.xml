@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.speedy.exam.dao.PaperDao">
+
+     <select id="startExam" parameterType="hashMap" resultType="com.speedy.exam.model.Question">
+		    select * from t_e_question where questionnumber = #{questionnumber} and category = #{category}
+	</select>
+
+    <select id="getScore" parameterType="String" resultType="String">
+		    select correntanswer from t_e_question where questionkey = #{quekey}
+	</select>
+	
+	<insert id="addPaper" parameterType="com.speedy.exam.model.Paper">
+			insert into t_e_paper values(#{paperkey},#{papertype},#{personkey},NOW(),#{score},#{passstate})	 
+	</insert>
+    
+    <insert id="addPaperQuestion" parameterType="com.speedy.exam.model.PaperQuestion">
+			insert into t_e_paper_question_rel values(#{relationkey},#{paperkey},#{questionkey},#{questionanswer},#{questionorder})	 
+	</insert>
+	
+	<select id="getQuestionByKey" parameterType="String" resultType="com.speedy.exam.model.Question">
+		    SELECT * FROM t_e_question a RIGHT JOIN t_e_paper_question_rel b ON a.questionkey = b.questionkey WHERE b.paperkey = #{paperkey} ORDER BY questionorder ASC  
+	</select>
+	
+	<select id="getQuestionCount" resultType="int">
+		    SELECT COUNT(QUESTIONNUMBER) FROM t_e_question where category = #{examType}
+	</select>
+	
+	<select id="getExam" resultType="com.speedy.exam.model.Option">
+		    SELECT * FROM t_e_type_option where typecode='papertype'  
+	</select>
+</mapper>

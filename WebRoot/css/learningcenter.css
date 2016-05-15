@@ -1,0 +1,35 @@
+body{width:100%; height:100%; background:#c1d9f3 url(../images/index_bg.png) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
+.index_header{width:100%; height:90px; background: url(../images/bg_header.png) repeat-x;}
+.header_inner{width:1200px; margin:0 auto; padding-top:23px;}
+.index_logo{float:left; width:167px; height:34px; background: url(../images/logo.png) no-repeat;}
+.index_title{float:left; width:177px; height:55px; background: url(../images/center.png) no-repeat; margin-left: 345px;}
+.myprofile_content{width:1200px; margin:0 auto; padding-bottom: 100px;}
+.myprofile_link{overflow: hidden; padding:30px 0;}
+.zuji{float:left; font-size: 16px; color:#262626;}
+.zuji a{font-size: 16px; color:#262626;}
+.testcenter_information{overflow: hidden; float:right;}
+.testcenter_information li{float:left; padding:0 10px; height:15px; line-height:13px;}
+.testcenter_information a{font-size: 14px; color: #808080;}
+.infor_border{border-right:1px solid #4c4c4c;}
+
+.learning_files{overflow: hidden;}
+.learning_center{float:left; width:240px; height:645px; background: url(../images/record_bg.png) repeat-x; box-shadow: 0 0 5px #fff;  color:#fff; text-align: center;}
+.learning_center img{display: block; margin:25px auto 45px;}
+.learning_center h3{font-size: 24px; line-height:25px; font-weight: normal;}
+.learning_name{font-size: 16px; line-height: 16px; padding:15px 0; text-align: center;}
+.learning_login a{font-size: 16px; line-height: 16px; color:#fff;}
+.learning_content{float:left; width:960px;}
+.learning_download{background-color: #fafafa; padding-left:100px; height:290px;}
+.download_h3{overflow: hidden; padding-top:30px;}
+.download_h3 img{float:left; padding-right:10px;}
+.download_h3 span{float:left; font-size: 16px; color:#262626; line-height:16px;}
+.ldown_listword{float:left; font-size: 16px; color:#262626; line-height: 37px;}
+.ldown_listbtn{float:right;}
+.ldown_listbtn a{float:right; width:83px; height:37px; background-color: #dc882e; color:#fff; text-align: center; line-height: 37px; font-size: 15px;}
+.ldownload_list li{overflow: hidden; padding:10px 0; border-bottom: 1px solid #c9c9c9; width:645px;}
+.ldownload_list{padding:10px 0 0 30px;}
+.ldown_more a{float:right; font-size: 14px; color:#4c4c4c; line-height: 15px;}
+.ldown_more{overflow: hidden; padding:25px 65px 0 0;}
+.learning_online{background-color: #f2f2f2; height:355px;}
+
+

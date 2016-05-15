@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.speedy.exam.dao.MaterialDao">
+
+	<select id="getMaterial" resultType="com.speedy.exam.model.Material">
+		    SELECT * FROM t_e_material where materialtype='00'
+	</select>
+	
+	<select id="getMaterial1" resultType="com.speedy.exam.model.Material">
+		    SELECT * FROM t_e_material where materialtype='01'
+	</select>
+	
+	<select id="getMaterialByKey" resultType="com.speedy.exam.model.Material" parameterType="String">
+		    SELECT * FROM t_e_material where materialkey=#{key}
+	</select>
+  
+    
+</mapper>

@@ -1,0 +1,9 @@
+$(function(){
+	$(".loginbody").height($(window).height());
+	if($(document).height()>$(window).height()){
+		$(".loginbody").height($(document).height());
+	}
+	$(".choose").click(function(){
+		$(this).attr("src","images/choose.png").parent().siblings().children(".choose").attr("src","images/nochoose.png");
+	})
+})

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.speedy.exam.dao.MaxDao">
+
+	<select id="getMax" resultType="int" parameterType="String">
+		    select maxno from t_e_max where maxcode=#{maxcode}
+	</select>
+	
+	<update id="updateMax" parameterType="String">
+			UPDATE t_e_max SET maxno=maxno+1 WHERE maxcode=#{maxcode}
+	</update>
+  
+    
+</mapper>

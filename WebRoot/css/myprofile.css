@@ -1,0 +1,63 @@
+body{width:100%; height:100%; background:#c1d9f3 url(../images/index_bg.png) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
+.index_header{width:100%; height:90px; background: url(../images/bg_header.png) repeat-x;}
+.header_inner{width:1200px; margin:0 auto; padding-top:23px;}
+.index_logo{float:left; width:167px; height:34px; background: url(../images/logo.png) no-repeat;}
+.index_title{float:left; width:177px; height:55px; background: url(../images/center.png) no-repeat; margin-left: 345px;}
+.myprofile_content{width:1200px; margin:0 auto; padding-bottom: 100px;}
+.myprofile_link{overflow: hidden; padding:30px 0;}
+.zuji{float:left; font-size: 16px; color:#262626;}
+.zuji a{font-size: 16px; color:#262626;}
+.testcenter_information{overflow: hidden; float:right;}
+.testcenter_information li{float:left; padding:0 10px; height:15px; line-height:13px;}
+.testcenter_information a{font-size: 14px; color: #808080;}
+.infor_border{border-right:1px solid #4c4c4c;}
+.files_mine{overflow: hidden; background-color: #fff; padding-top:3px;}
+.mine_left{float:left; width:240px; height:280px; background: url(../images/mine_bg.png) repeat-x; box-shadow: 0 0 5px #fff;}
+.mine_right{float:left; padding:80px 0 0 65px;}
+.mine_img{display: block; margin:20px auto 40px;}
+.mine_left h3{font-size: 24px; color:#fff; line-height:25px; padding-bottom:20px; text-align: center; font-weight: normal;}
+.mine_left a{display: block; width:75px; text-align: center; font-size: 16px; color:#fff; margin:0 auto;}
+.mine_infor{overflow: hidden;}
+.infor_list{float:left; padding-right:55px; line-height:35px;}
+.infor_list img{float:left; padding:2px 15px 0 0;}
+.mine_name{font-size: 16px; color:#262626;}
+.mine_con{font-size: 16px; color:#0b508c;}
+.mine_score{overflow: hidden; padding-top:55px;}
+.score_li{float:left; padding-right:55px; line-height: 30px;}
+.score_li img{float:left; padding:2px 15px 0 0;}
+.score_word{color:#0b508b; font-size:18px;}
+.score_gray{color:#8c8c8c; font-size:18px;}
+.red{color:#f5412e; font-size: 22px; padding:0 5px;}
+
+.files_record{overflow: hidden; background-color: #fafafa;}
+.record_title{float:left; width:240px; height:716px; background: url(../images/record_bg.png) repeat-x; box-shadow: 0 0 5px #fff;}
+.record_title img{display: block; margin:60px auto 30px; padding-left:20px;}
+.record_title h3{font-size: 24px; color:#fff; line-height:25px; text-align: center; font-weight: normal;}
+.record_detail{float:left;}
+.record_detail_title{overflow: hidden; padding:30px 0 30px 65px;}
+.record_detail_title img{float:left;}
+.record_detail_title h4{float:left; font-size: 18px; color:#262626; padding:0 15px; font-weight: normal;}
+.list_border_inner{overflow: hidden;}
+.list_border_inner li{float:left; font-size: 16px; color:#262626; line-height:32px; padding:15px 0 10px;}
+.list_inner_name{width:220px; overflow : hidden; white-space: nowrap; text-overflow: ellipsis;display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;}
+.list_testtime{width:195px;}
+.list_border_inner .testtime_blue{color:#0b508b;}
+.list_inner_num{width:135px; overflow: hidden;}
+.list_inner_num span{float:left;}
+.num_red{color:#f5412e; font-size: 20px; padding:0 5px; width:40px;}
+.list_inner_state{width:130px;}
+.state_result{font-size: 18px; color:#f5412e;}
+.record_detail_list{padding:0 0 30px 92px;}
+.list_border{border-bottom: 1px solid #c9c9c9;}
+.list_inner_btn a{float:left; height:32px;}
+
+.record_test_page{overflow: hidden; width:340px; margin:0 auto; padding-left:100px;}
+.record_test_page li{float:left; cursor: pointer;}
+.record_pageone,.record_pagelast,.record_pagenext,.record_lastpage{font-size: 14px; color:#4c4c4c; padding:5px; border:1px solid #b3b2b2; background-color: #fbfbfb; margin-right:10px; line-height:15px; background-color: #f8f8f8;}
+.record_pagenum,.record_page_number{font-size: 14px; color:#4c4c4c;margin:0 10px; line-height:15px;}
+.record_page_number{padding:5px 0;}
+.record_pagenum input{width:35px; height:25px; border:1px solid #b3b2b2; margin:0 5px; background-color: #f8f8f8;}
+
+
+
+

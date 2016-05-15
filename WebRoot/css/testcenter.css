@@ -1,0 +1,35 @@
+body{width:100%; height:100%; background:#c1d9f3 url(../images/index_bg.png) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
+.index_header{width:100%; height:90px; background: url(../images/bg_header.png) repeat-x;}
+.header_inner{width:1200px; margin:0 auto; padding-top:23px;}
+.index_logo{float:left; width:167px; height:34px; background: url(../images/logo.png) no-repeat;}
+.index_title{float:left; width:177px; height:55px; background: url(../images/center.png) no-repeat; margin-left: 345px;}
+.testcenter_content{width:1200px; margin:0 auto;}
+.testcenter_link{overflow: hidden; padding:30px 0;}
+.zuji{float:left; font-size: 16px; color:#262626;}
+.zuji a{font-size: 16px; color:#262626;}
+.testcenter_information{overflow: hidden; float:right;}
+.testcenter_information li{float:left; padding:0 10px; height:15px; line-height:13px;}
+.testcenter_information a{font-size: 14px; color: #808080;}
+.infor_border{border-right:1px solid #4c4c4c;}
+.testcenter_main{height:460px; background-color: #fff; padding-top:3px; overflow: hidden;}
+.main_left{float:left; width:240px; height:460px; background: url(../images/main_left_bg.png) repeat-x; border-radius: 5px; box-shadow: 0 0 5px #fff;}
+.main_left img{padding-top:20px; display: block; margin:0 auto;}
+.main_left h3{font-size: 24px; color:#fff; line-height:25px; padding:45px 0 20px; text-align: center; font-weight: normal;}
+.exit{font-size: 16px; color:#fff; line-height: 16px; display: block; width:80px; text-align: center; margin:0 auto;}
+.main_right{float:left; width:875px; height:460px; padding-left:85px;}
+.main_message{overflow: hidden; padding: 22px 0 40px;}
+.main_message li{float:left; padding-right:60px;}
+.message_img{float:left; padding-right:10px;}
+.message_name{float:left; font-size: 16px; color:#262626; line-height:29px;}
+.message_con{color:#0b508c;}
+.main_test{padding-left:50px;}
+.test_title{overflow: hidden;}
+.test_title img{float:left; padding-right:20px;}
+.test_title h3{font-size: 22px; color:#fc2b1b; line-height:23px; font-weight: normal; padding-bottom:30px;}
+.test_con{width:555px; padding:25px 60px 35px; background-color: #f2f2f2; border-radius: 5px;}
+.test_list{overflow: hidden; height:30px; padding:10px 0 3px; border-bottom: 1px dashed #bfbfbf; line-height: 30px;}
+.test_list img{float:left; padding:7px 20px 0 0;}
+.test_list p{float:left; font-size: 14px; color:#4c4c4c;}
+.test_list p em{font-size: 16px;}
+.test_list a{float:right; width:82px; height:30px; line-height:30px; text-align: center; font-size: 17px; color:#fff; background-color: #dc882e; border-radius: 3px;}
+

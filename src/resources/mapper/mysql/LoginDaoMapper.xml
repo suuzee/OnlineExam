@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.speedy.exam.dao.LoginDao">
+
+	<select id="loginPerson" resultType="com.speedy.exam.model.Person" parameterType="com.speedy.exam.model.Person">
+		    select * from t2_pow_user where userkey = #{userkey} and password = #{password}
+	</select>
+  
+ 	 <select id="getPerson" resultType="com.speedy.exam.model.Person" parameterType="String">
+		    select * from t_e_person where personkey=#{personkey}
+	</select>
+	
+	<insert id="addPerson" parameterType="com.speedy.exam.model.Person">
+			insert into t_e_person values(#{personkey},#{personname},#{personcode},#{credit},#{floor},#{validflag})
+	</insert>
+	
+	<update id="updateFloor" parameterType="hashmap">
+			UPDATE t_e_person SET floor=#{floor} WHERE personkey=#{personkey}
+	</update>
+    
+    <update id="updateCredit" parameterType="hashmap">
+			UPDATE t_e_person SET credit=credit+#{score} WHERE personkey=#{personkey}
+	</update>
+</mapper>

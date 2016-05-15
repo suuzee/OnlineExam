@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.speedy.exam.dao.key.KeyDAO">
+
+    <update id="updateTpKeyNumber" parameterType="hashmap">
+		update tp_key_number set keyno=#{keyno} where tabname=#{tabname}	
+	</update>
+	
+    <insert id="addTpKeyNumber" parameterType="hashmap">
+		insert into tp_key_number (tabname, keyno) values (#{tabname},#{keyno})
+	</insert>
+	
+    <select id="getTpKeyNumber" resultType="com.speedy.exam.model.key.TpKeyNumber" parameterType="hashmap">
+		select keyno from tp_key_number where tabname=#{tabname}
+	</select>
+	
+    <update id="updateTpKeyString" parameterType="hashmap">
+		update tp_key_string set code=#{code} where tabname=#{tabname} and curdate=#{curdate}	
+	</update>
+    
+    <insert id="addTpKeyString" parameterType="hashmap">
+		insert into tp_key_string (tabname, curdate, code) values (#{tabname}, #{curdate}, #{code})
+	</insert>
+	
+    <select id="getTpKeyString" resultType="com.speedy.exam.model.key.TpKeyString" parameterType="hashmap">
+		select code from tp_key_string where tabname=#{tabname} and curdate=#{curdate}
+	</select>
+	
+    <insert id="delTpKeyString" parameterType="hashmap">
+		delete from tp_key_string where curdate=#{curdate}
+	</insert>
+	
+</mapper>

@@ -1,0 +1,37 @@
+body{width:100%; height:100%; background:#c1d9f3 url(../images/index_bg.png) no-repeat center center; -webkit-background-size: cover; background-size: cover;}
+.index_header{width:100%; height:90px; background: url(../images/bg_header.png) repeat-x;}
+.header_inner{width:1200px; margin:0 auto; padding-top:23px;}
+.index_logo{float:left; width:167px; height:34px; background: url(../images/logo.png) no-repeat;}
+.index_title{float:left; width:177px; height:55px; background: url(../images/center.png) no-repeat; margin-left: 345px;}
+.myprofile_content{width:1200px; margin:0 auto; padding-bottom: 100px;}
+.myprofile_link{overflow: hidden; padding:30px 0;}
+.zuji{float:left; font-size: 16px; color:#262626;}
+.zuji a{font-size: 16px; color:#262626;}
+.testcenter_information{overflow: hidden; float:right;}
+.testcenter_information li{float:left; padding:0 10px; height:15px; line-height:13px;}
+.testcenter_information a{font-size: 14px; color: #808080;}
+.infor_border{border-right:1px solid #4c4c4c;}
+
+.learning_files{overflow: hidden;}
+.learning_center{float:left; width:240px; height:760px; background: url(../images/videopage_bg.png) repeat-x; box-shadow: 0 0 5px #fff;  color:#fff; text-align: center;}
+.learning_center img{display: block; margin:25px auto 45px;}
+.learning_center h3{font-size: 24px; line-height:25px; font-weight: normal;}
+.learning_name{font-size: 16px; line-height: 16px; padding:15px 0; text-align: center;}
+.learning_login a{font-size: 16px; line-height: 16px; color:#fff;}
+.docpage_content{float:left; width:860px; height:760px; background-color: #fafafa; padding-left:100px;}
+.download_h3{overflow: hidden; padding-top:30px;}
+.download_h3 img{float:left; padding-right:10px;}
+.download_h3 span{float:left; font-size: 16px; color:#262626; line-height:16px;}
+.docpage_h4{width:637px; font-size: 16px; color:#262626; line-height:16px; padding:30px 0 15px; border-bottom: 1px solid #c9c9c9;}
+.docpage_abstract{width:605px; height:275px; border:1px solid #c9c9c9; margin-top:15px; padding:15px; background-color: #fff;}
+.docpage_abstract h4,.videopage_abstract h4{ font-size: 14px; color:#333; line-height:15px; padding-bottom:15px; font-weight: normal;}
+.docpage_abstract p,.videopage_abstract p{font-size: 14px; color:#333; line-height:25px; text-indent: 2em;}
+.docpage_btn a,.videopage_btn a{display: block; width:85px; height:37px; text-align: center; line-height:37px; color:#fff; font-size: 15px; margin:0 auto; background-color: #dc882e;}
+.docpage_btn{width:637px; padding-top:35px;}
+
+
+.video_conbg img{display: block; margin:85px auto 0;}
+.videopage_h4{width:685px; font-size: 16px; color:#262626; line-height:16px; padding:30px 0 15px; border-bottom: 1px solid #c9c9c9;}
+.videopage_abstract{width:685px; height:440px; border:1px solid #c9c9c9; margin-top:15px; padding:15px 0; background-color: #fff;}
+.videopage_abstract h4,.videopage_abstract p{padding-left:15px;}
+.videopage_btn{width:685px; padding-top:55px;}
