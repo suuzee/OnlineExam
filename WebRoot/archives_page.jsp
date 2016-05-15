@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
@@ -232,7 +232,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		p.value="";
 	}
 	
-	/* function getKey(p){
+	/* -----------------------function getKey(p){
 		if(event.keyCode==13){
 			if(p.value>0&&p.value<=PagesLen){
 				var page = parseInt(p.value)-1;
